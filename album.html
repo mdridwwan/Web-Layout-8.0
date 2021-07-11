@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiger Photo Album</title>
+    <style>
+        .photo-album {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        .photo-frame {
+            width: 300px;
+            height: 244px;
+            border: 1px solid orange;
+            border-radius: 10px;
+            position: relative;
+            margin: 5px;
+            overflow: hidden;
+        }
+        
+        .photo-frame:hover .photo {
+            transform: scale(1.2) rotate(360deg);
+            transition: transform 2s ease-in-out;
+        }
+        
+        .photo img {
+            border-radius: 10px;
+            width: 100%;
+        }
+        
+        .photo-details {
+            display: none;
+            position: absolute;
+            width: 300px;
+            top: 0;
+        }
+        
+        .photo-frame:hover .photo-details {
+            display: block;
+            background-color: rgba(0, 0, 0, 0.274);
+        }
+        
+        .photo-details h3 {
+            background-color: rgba(0, 0, 0, 0.568);
+            color: white;
+            padding: 5px 0;
+            text-align: center;
+        }
+        
+        .photo-details p {
+            color: rgb(218, 218, 218);
+            word-wrap: break-word;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>MY awesome photo album Tiger mama</h1>
+    <section>
+        <h3>Tiger Album</h3>
+        <div class="photo-album">
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>Tiger Mama canddi</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam quia enim perspiciatis consectetur dicta facere, eius quas, illum, eum esse sapiente aliquam nisi quo amet quos laborum fugiat blanditiis non?</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>Tiger Mama canddi</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam quia enim perspiciatis consectetur dicta facere, eius quas, illum, eum esse sapiente aliquam nisi quo amet quos laborum fugiat blanditiis non?</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>Tiger Mama canddi</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam quia enim perspiciatis consectetur dicta facere, eius quas, illum, eum esse sapiente aliquam nisi quo amet quos laborum fugiat blanditiis non?</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>Tiger Mama canddi</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam quia enim perspiciatis consectetur dicta facere, eius quas, illum, eum esse sapiente aliquam nisi quo amet quos laborum fugiat blanditiis non?</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>Tiger Mama canddi</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam quia enim perspiciatis consectetur dicta facere, eius quas, illum, eum esse sapiente aliquam nisi quo amet quos laborum fugiat blanditiis non?</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>Tiger Mama canddi</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam quia enim perspiciatis consectetur dicta facere, eius quas, illum, eum esse sapiente aliquam nisi quo amet quos laborum fugiat blanditiis non?</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>Tiger Mama canddi</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam quia enim perspiciatis consectetur dicta facere, eius quas, illum, eum esse sapiente aliquam nisi quo amet quos laborum fugiat blanditiis non?</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>Tiger Mama canddi</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam quia enim perspiciatis consectetur dicta facere, eius quas, illum, eum esse sapiente aliquam nisi quo amet quos laborum fugiat blanditiis non?</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>Tiger Mama canddi</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam quia enim perspiciatis consectetur dicta facere, eius quas, illum, eum esse sapiente aliquam nisi quo amet quos laborum fugiat blanditiis non?</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>Tiger Mama canddi</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam quia enim perspiciatis consectetur dicta facere, eius quas, illum, eum esse sapiente aliquam nisi quo amet quos laborum fugiat blanditiis non?</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>Tiger Mama canddi</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam quia enim perspiciatis consectetur dicta facere, eius quas, illum, eum esse sapiente aliquam nisi quo amet quos laborum fugiat blanditiis non?</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>Tiger Mama canddi</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam quia enim perspiciatis consectetur dicta facere, eius quas, illum, eum esse sapiente aliquam nisi quo amet quos laborum fugiat blanditiis non?</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>Tiger Mama canddi</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam quia enim perspiciatis consectetur dicta facere, eius quas, illum, eum esse sapiente aliquam nisi quo amet quos laborum fugiat blanditiis non?</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>Tiger Mama canddi</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam quia enim perspiciatis consectetur dicta facere, eius quas, illum, eum esse sapiente aliquam nisi quo amet quos laborum fugiat blanditiis non?</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>Tiger Mama canddi</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam quia enim perspiciatis consectetur dicta facere, eius quas, illum, eum esse sapiente aliquam nisi quo amet quos laborum fugiat blanditiis non?</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>Tiger Mama canddi</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam quia enim perspiciatis consectetur dicta facere, eius quas, illum, eum esse sapiente aliquam nisi quo amet quos laborum fugiat blanditiis non?</p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+</body>
+
+</html>
